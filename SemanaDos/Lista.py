@@ -23,3 +23,8 @@ Product1 = {
 }
 
 store.append{product1}
+
+#mostrar los productos del lmacen
+
+for product in store:
+    print(product)
